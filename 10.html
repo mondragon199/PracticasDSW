@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario Completo</title>
+</head>
+<body>
+
+<h1>Formulario Completo</h1>
+
+<form action="/submit-formulario" method="POST">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="contrasena">Contraseña:</label><br>
+  <input type="password" id="contrasena" name="contrasena" required><br><br>
+  
+  <label for="edad">Edad:</label><br>
+  <input type="number" id="edad" name="edad" min="18" max="100"><br><br>
+  
+  <label for="genero">Género:</label><br>
+  <select id="genero" name="genero">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+    <option value="otro">Otro</option>
+  </select><br><br>
+  
+  <label>Preferencias de Contacto:</label><br>
+  <input type="radio" id="telefono" name="contacto" value="telefono">
+  <label for="telefono">Teléfono</label><br>
+  <input type="radio" id="email_contacto" name="contacto" value="email">
+  <label for="email_contacto">Email</label><br><br>
+  
+  <label for="intereses">Intereses:</label><br>
+  <input type="checkbox" id="interes1" name="interes1" value="programacion">
+  <label for="interes1">Programación</label><br>
+  <input type="checkbox" id="interes2" name="interes2" value="diseño">
+  <label for="interes2">Diseño</label><br>
+  <input type="checkbox" id="interes3" name="interes3" value="musica">
+  <label for="interes3">Música</label><br><br>
+  
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+  
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpiar">
+</form>
+
+</body>
+</html>
