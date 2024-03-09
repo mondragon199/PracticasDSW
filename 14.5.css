@@ -1,0 +1,28 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .caja {
+      width: 50%;
+      background-color: lightblue;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-top: 1.5em;
+      font-size: 16px; /* Tamaño de la fuente del párrafo */
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .ventana {
+      width: 50vw;
+      height: 50vh;
+      background-color: lightgreen;
+      padding: 20px;
+    }
