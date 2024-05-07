@@ -1,0 +1,58 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Cambio de estilo de letra a Arial o una fuente sans-serif */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro transparente */
+    color: #fff; /* Color de texto blanco */
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Borde blanco muy transparente */
+    border-radius: 10px; /* Borde redondeado */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro más opaco para el formulario */
+}
+
+/* Estilos para los campos y etiquetas */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0; /* Margen superior e inferior aumentado */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borde blanco semi-transparente */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo blanco semi-transparente */
+    color: #fff; /* Color de texto blanco */
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px; /* Margen superior aumentado */
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de enviar al pasar el mouse */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+/* Responsivo */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
